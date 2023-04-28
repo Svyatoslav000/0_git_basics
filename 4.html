@@ -1,0 +1,10 @@
+<meta charset="utf-8">
+<script>
+let userName = prompt("Введите ваше имя:");
+let birthYear = prompt("Введите год вашего рождения:");
+
+let age = new Date().getFullYear() - Number(birthYear);
+
+document.write(`${userName}: ${age}`);
+
+</script>
